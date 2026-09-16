@@ -1,6 +1,6 @@
 public class Student {
 
-            int age;
+            int id;
             String name;
             int completedCredits;
             void printsummary(){

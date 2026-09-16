@@ -5,7 +5,7 @@ public class Student {
             int completedCredits;
             void printsummary(){
                 System.out.println("Name: " + name);
-                System.out.println("Age: " + age);
+                System.out.println("ID: " + id);
                 System.out.println("Completed Credits: " + completedCredits);
             }
      }
