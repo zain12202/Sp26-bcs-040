@@ -8,5 +8,9 @@ public class Student {
                 System.out.println("ID: " + id);
                 System.out.println("Completed Credits: " + completedCredits);
             }
+            int addCredits(int creditsAdded){
+                completedCredits+=creditsAdded;
+                return completedCredits;
+            }
      }
 
